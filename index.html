@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        <link href="CSS/style.css" rel="stylesheet" type="text/css" >
+        <script defer src="JavaScript/style.js" text="text/JavaScript" ></script> 
+        <title>CA</title>
+        <meta name="author" content="Estefani Ricardo de Souza, Gabrielle Coral e Nerline Bicinthe">
+        <meta name="description" content="Site sobre o CA">
+        <link rel="shortcut icon" type="img/png" href="img/Icone.png">
+    </head>
+<body>
+    <!--logo e hamburguer-->
+    <header>
+        <img src="img/Logo.png">
+        <a href="#" class="btn-abrir" onclick="abrirMenu()">&#9776;</a>
+    </header>
+    <nav id="menu1">
+            <a class="menu2" href="#" onclick="fecharMenu()">&times;Menu</a>
+            <!--menu-->
+            <ul>
+                <li>
+                    <a class="item" href="SobreOCA.html">Conheça nosso CA </a>
+                    <a class="item" href="SobreOCurso.html">Conheça o Curso </a>
+                    <a class="item" href="Documentos.html">Documentos Oficiais </a>
+                    <a class="item" href="TopicosDeInteresse.html">Tópico de Interesse </a>
+                    <a class="item" href="Eventos.html">Eventos </a>
+                </li>
+            </ul>
+    </nav>
+    <!--carousel-->
+    <section class="slider">
+        <article class="slides">
+            <input type="radio" name="radio-btn" id="botao1">
+            <input type="radio" name="radio-btn" id="botao2">
+            <input type="radio" name="radio-btn" id="botao3">
+            <section class="img1">
+                <a href="https://www.unesc.net/ciencia-da-computacao" target="_blank">
+                <img class="imagem" src="img/slide1.jpeg"></a>
+            </section>
+            <section class="img2">
+                <a href="./Eventos.html/" target="_blank"></a>
+                <img class="imagem" src="img/slide2.jpeg">
+            </section>
+            <section class="img3">
+                <a href="./Documentos.html/" target="_blank"></a>
+                <img class="imagem" src="img/slide3.jpeg">
+            </section>
+            <section>
+                <a class="auto-btn1"></a>
+                <a class="auto-btn2"></a>
+                <a class="auto-btn3"></a>
+            </section>
+        </article>
+        <article>
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </article>
+    </section>
+
+    <!--final-->
+    <footer>
+       
+    </footer>
+</body>
+</html>
